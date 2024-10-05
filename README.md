@@ -31,6 +31,11 @@ This project is focused on spatial hotspot analysis of NYC taxi data. It include
 - Scala
 - NYC Taxi Data (2009-2012)
 
+### Features:
+
+Hot zone analysis using spatial range join on NYC taxi datasets.
+Hot cell analysis using Getis-Ord G-statistic to identify significant hotspots.
+
 ### Files:
 - `HotspotAnalysis.jar`: The compiled JAR file that contains the Spark implementation for both hot zone and hot cell analysis.
 - `HotzoneAnalysis.scala`: Source code for hot zone analysis.
